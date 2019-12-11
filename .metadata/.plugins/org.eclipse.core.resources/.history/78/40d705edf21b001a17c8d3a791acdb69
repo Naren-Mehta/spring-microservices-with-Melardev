@@ -1,0 +1,8 @@
+package com.naren17.netflixfeignapicall.client;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient("rest-app")
+public interface RestClient {
+
+}

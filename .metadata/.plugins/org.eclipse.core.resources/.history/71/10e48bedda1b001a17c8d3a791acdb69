@@ -1,0 +1,5 @@
+package com.naren17.restapp.controller;
+
+public class HomeController {
+
+}

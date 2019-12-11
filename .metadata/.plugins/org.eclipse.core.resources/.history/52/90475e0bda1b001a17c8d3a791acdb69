@@ -1,0 +1,7 @@
+server.port=8762
+spring.application.name=netflix-zuul-api-gateway-server
+eureka.instance.preferIpAddress=true
+eureka.client.regsterWithEureka=true
+eureka.client.fetchRegistry=true
+eureka.serverurl.defaultzoon=http://localhost:8761/netflix-eureka-naming-server/
+management.endpoint.routes.enabled=true

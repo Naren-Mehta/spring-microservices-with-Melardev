@@ -1,0 +1,5 @@
+server.port=8762
+spring.application.name=netflix-zuul-api-gateway-server
+eureka.instance.preferIpAddress=true
+eureka.client.regsterWithEureka=true
+eureka.client.fetchRegistry=true

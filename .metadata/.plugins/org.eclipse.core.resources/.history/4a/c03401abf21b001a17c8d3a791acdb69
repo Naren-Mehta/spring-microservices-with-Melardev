@@ -1,0 +1,5 @@
+package com.naren17.netflixfeignapicall.controller;
+
+public class HomeController {
+
+}

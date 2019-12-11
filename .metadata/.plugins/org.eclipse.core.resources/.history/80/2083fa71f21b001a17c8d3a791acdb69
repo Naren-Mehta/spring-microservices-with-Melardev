@@ -1,0 +1,13 @@
+package com.naren17.netflixfeignapicall;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class NetflixFeignApiCallApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NetflixFeignApiCallApplication.class, args);
+	}
+
+}

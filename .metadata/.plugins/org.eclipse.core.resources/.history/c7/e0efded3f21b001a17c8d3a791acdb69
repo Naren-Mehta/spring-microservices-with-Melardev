@@ -1,0 +1,5 @@
+package com.naren17.netflixfeignapicall.client;
+
+public class RestClient {
+
+}

@@ -1,0 +1,4 @@
+server.port=8666
+spring.application.name=rest-app
+eureka.client.serverUrl.defaultZone=http://localhost:8761/netflix-eureka-naming-server/
+eureka.client.instance.preferIpAddress=true
