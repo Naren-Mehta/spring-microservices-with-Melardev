@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Ribbon</title>
+</head>
+<body>
+	
+	<h1 th:text="${serviceId}"></h1>
+	<h1>Available instance</h1>
+	<span th:each="instance: ${instances}">
+		<span th:text="${instance.uri}"></span><br/>
+	</span>
+	
+	<h3>Targeted URL</h3>
+	<h3 th:text="${url}"></h3><br/>
+	<h3>Result</h3>
+	<h3 th:text="${result}"></h3>
+</body>
+</html>

@@ -11,9 +11,12 @@ public class HomeController {
 	@Value("${app.id}")
 	String instance;
 	
+	@Value("${server.port}")
+	String port;
+	
 	@GetMapping("/")
 	public String hi() {
-		return "Welcome, I am "+instance;
+		return "Port no : " + port+", Welcome, I am "+instance;
 	}
 	
 	@GetMapping("/login")
