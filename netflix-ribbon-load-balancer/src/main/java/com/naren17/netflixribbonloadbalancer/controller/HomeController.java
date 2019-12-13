@@ -27,8 +27,6 @@ public class HomeController {
 
 		List<ServiceInstance> instances = this.discoveryClient.getInstances(serviceId);
 
-		System.out.println(instances);
-		
 		if (instances != null && !instances.isEmpty()) {
 			RestTemplate restTemplate = new RestTemplate();
 
